@@ -1,0 +1,42 @@
+body{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 1.5em;
+}
+
+header{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+#logo{
+    filter: invert(1);
+    width: 50%;
+    height: auto;
+}
+
+main{
+    padding: 0px 100px;
+}
+
+p{
+    padding: 0px 20px;
+}
+
+.imgs{
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
